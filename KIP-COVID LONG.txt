@@ -1,0 +1,67 @@
+KIP ??
+
+Titre: Punitions "Covid Long" - Spécification
+
+Auteur: Rami
+
+Statut: Draft
+
+Type: Punition
+
+Created: 20/10/2022
+
+
+Préambule :
+
+Le groupe des Keks rassemble des Bitcoiners de tout horizon et le groupe tient toutes ses promesses avec une activité constante (24h/7j). 
+C'est un couteau à double tranchant. Sa forte activité incite le spam, c'est pourquoi les punitions de "Covid Longs" ont fait leurs apparitions.
+Il sanctionne toute personne partageant un contenu déjà publié précédemment. 
+Ici ce KIP vient tenter de clarifier l'arbitrage de la sanction. Nous avons vu que certains débats sur les sanctions ont créer des disputes très violentes 
+qui menacent de diviser les Keks (effusion de sang, insultes, guerre nucléaire..).
+
+Problème :
+
+Pour décrire le problème nous allons présenter plusieurs exemples afin de mieux comprendre la source du problème et y lui accorder une solution:
+
+
+Les screens comptent en covid long. Même en cas de screen de screen. Si Montage apparent ce n’est pas un covid Long.
+
+CONDITIONS DE SANCTIONS
+
+Conditions proposées :
+-Si Bob partage un tweet qui déjà été partagé à un horodatage antérieur à ce dernier alors la sanction du Covid Long s’applique si c’est dans une tranche de 7 jours calendaires 
+-Si Bob partage image qui a déjà été partagée à un horodatage antérieur à ce dernier alors la sanction du Covid Long s’applique si c’est dans une tranche de 7 jours calendaires.
+-Si Bob partage un texte de plus de 140 caractères qui a déjà été partagé à un horodatage antérieur à  ce dernier alors la sanction du Covid Long s’applique si c’est dans une tranche de 7 jours calendaires. (probabilités extrêmement faibles de rédiger le même message  c’est donc à une citation ou relance le même sujet)
+-Dans un litige de contestation (voir le partie « CONTESTATION » ci-dessous 
+
+N.B : Le nombre de jours peut être revu car difficile à arbitrer le bon délai
+
+
+CONTESTATION :
+
+Il arrive souvent qu’il y ai débat sur la véracité des accusations de Covid Long. Il faut donc vérifier si le tweet à déjà été partagé. Dans ces moments la beaucoup par fainéantises ne le font pas et l’accusé attend sa preuve et fait durer le suspens jusqu’au bout.
+Pour palier à ça on peut imaginer un système incitatif :
+
+Bob partage un tweet et Alice lui dit de payer :
+-Si Bob conteste l’accusation de Covid Long et qu’Alice avait tord  Alice paie 100 sats
+-Si Bob conteste l’accusation de Covid Long et qu’Alice avait raison  Bob paie 200 sats (100 sats pour l’effort de vérification des keks + 100 sats de la sanction Covid Long, le total envoyé à l’adresse officielle punitions@moulacoin.fr)
+
+
+ « MAIS IL A PAS ENVOYE LE MEME JE PAIE PAS »
+
+Les traditions son importantes chez les keks.
+
+-Si le meme a été envoyé le sanctionné paie 100 sats
+-Si le meme n’a pas été envoyé le sanctionné paie 50 sats
+-Si le meme a été envoyé avec du retard (après paiement) le sanctionné paie les 50 sats restants 
+Il est possible qu’il faille définir « un délai d’acceptabilité » pour l’envoie du meme. La communauté tranchera
+
+
+N.B : Il reste quelques points à discuter peut-être dans d’autres KIP sous jacents aux sujets évoqués lors de celui-ci :
+-Le paiement (que faire avec les mauvais payeurs ? Les retards ? Le lieu du paiement, aucun KIP l’officialisant à ce jour. 
+-Le Covid Long sur les images, jusqu’à quel niveau de modification d’une image peut-on la considérer comme Covid Long ? Si l’image est une capture d’écran d’un tweet qui a déjà été partagé ? 
+
+
+
+
+R.

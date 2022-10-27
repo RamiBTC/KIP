@@ -1,0 +1,24 @@
+Les plebs souhaitant soumettre une KIP, doivent d'abord proposer leur idée dans le groupe (sans lui attribuer de numéro - consultez <a href="kip-0001.mediawiki">KIP 1</a> pour le process complet). Après discussion, il faut ouvrir une PR. Une fois que la PR est revue et acceptée, elle sera publiée ici.
+
+L'approbation des KIPs est plutôt libérale, et les mainteneurs du repo n'interférerons pas avec les décisions de la communauté du Kek. Exception faite cependant dans les cas très rares où un conflit ne permet pas d'aboutir à une décision. Dans ces cas là, l'approche conservatrice sera toujours privilégiée.
+
+La présence d'une KIP ici ne signifie pas qu'elle est acceptée, tant que son statut n'est pas `Finale` ou `Active`.
+
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Number
+!Layer
+!Title
+!Owner
+!Type
+!Status
+|- style="background-color: #cfffcf"
+| [[kip-0001.mediawiki|1]]
+|
+| KIP process, revised
+| Gilles Cadignan
+| Process
+| Draft
+|}
+
+<!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add KIPs here! -->

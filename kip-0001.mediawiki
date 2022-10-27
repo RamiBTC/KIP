@@ -1,0 +1,102 @@
+<pre>
+  KIP: 1
+  Titre: KIP process
+  Auteur: Gilles Cadignan 
+  Status: Draft
+  Type: Process
+  Created: 2022-10-01
+  License: 
+  Replaces: 
+</pre>
+
+==Abstract==
+
+Une Kek Improvement Proposal (KIP) est un document fournissant de l'information concernant les règles internes de la communauté du Kek. La KIP doit fournir une spécification précise de la règle en question afin qu'il n'y ait aucune discussion par la suite.
+
+L'auteur d'une KIP est responsable de la construction du consensus de sa nouvelle règle au sein de la communauté.
+
+Les KIPs sont similaires aux BIPs sur de nombreux points, surtout les moins relous.
+
+==Le workflow des KIPs ==
+
+Well, pareil que les BIPs en gros.
+
+===Transfert de propriété d'une KIP===
+
+Ça devrait pas trop arriver mais si jamais ça arrive, ben pareil que les BIPs.
+
+===Les Éditeurs de KIPs ===
+
+Lounes est en charge de merge les PR, il en faudrait un deuxieme dans le cas ou Lounes nous rug
+
+===Les responsabilités des Éditeurs de KIPs===
+
+Soit il fait bien son boulot, soit on le vire.
+
+==Format et structure d'une KIP==
+
+===Spécifications===
+
+Pareil que les BIPs, en enlevant quelques trucs. En gros, les sections suivantes sont obligatoires (j'ai eu la flemme de traduire) :
+
+
+* Preamble -- Headers containing metadata about the BIP ([[#BIP header preamble|see below]]).
+
+* Abstract -- A short (~200 word) description of the technical issue being addressed.
+
+* Specification -- The technical specification should describe the syntax and semantics of any new feature. 
+
+* Motivation -- The motivation is critical for KIPs that want to change the Kek rules. It should clearly explain why the existing protocol is inadequate to address the problem that the KIP solves.
+
+
+====BIP header preamble====
+
+Le format du header d'une KIP suit le format des BIPs (à peu près) : 
+
+Each KIP must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
+
+<pre>
+  KIP: <KIP number, or "?" before being assigned>
+  TItre: <BIP title; maximum 44 characters>
+  Auteur: <list of authors' real names and email addrs>
+  Statut: <Draft | Active | Proposed | Deferred | Rejected |
+           Withdrawn | Final | Replaced | Obsolete>
+  Type: <Punition | Informational | Process>
+  Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+* Requires: <KIP number(s)>
+* Replaces: <KIP number>
+* Superseded-By: <KIP number>
+</pre>
+
+==Les Types de KIPs==
+
+Il existe 3 types de KIPs :
+
+* Punition avec le montant dû et le comportement associé
+* Process (genre comme la KIP-1)
+* Formalisation d'une information / décision importante du Kek
+===Spécifications===
+
+Pareil que les BIP ma gueule
+
+<img src="kip-0001/process.png"></img>
+
+====Passage au statut Finale====
+
+Afin de devenir finale, une KIP doit recueillir au moins 50% de ACK au sein de la communauté du Kek.
+
+===Rationale===
+
+Pourquoi on se fait chier à ce point ?
+
+Parce que sinon ce serait le bordel.
+
+==Commentaires de la KIP==
+
+===Spécifications===
+
+L'auteur propose une nouvelle règle dans le groupe, recueille les premiers avis. S'il y a un minimum d'intérêt, il doit se palucher la KIP et faire une PR de la KIP en Draft.
+
+La PR est communiquée au groupe et recueille les premiers commentaires. Si un consensus se forme, son statut est passé à `Updated` puis `Finale` quand elle est mergée.
+
+Et voilà.
